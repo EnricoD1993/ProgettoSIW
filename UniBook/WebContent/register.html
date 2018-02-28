@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+	name="viewport">
+<title>Registrazione</title>
+<!-- Favicon-->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext"
+	rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet" type="text/css">
+
+
+<link href="plugins/bootstrap-select/css/bootstrap-select.css"
+	rel="stylesheet">
+<!-- Bootstrap Core Css -->
+<link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+<!-- Waves Effect Css -->
+<link href="plugins/node-waves/waves.css" rel="stylesheet" />
+
+<!-- Animation Css -->
+<link href="plugins/animate-css/animate.css" rel="stylesheet" />
+
+<!-- Custom Css -->
+<link href="css/style.css" rel="stylesheet">
+<link
+	href="plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css"
+	rel="stylesheet">
+
+
+<script src="plugins/jquery/jquery.js"></script>
+<!-- Jquery Core Js -->
+
+<!-- Bootstrap Core Js -->
+<script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+<!-- Waves Effect Plugin Js -->
+<script src="plugins/node-waves/waves.js"></script>
+<script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+<script src="plugins/momentjs/moment.js"></script>
+<script src="javascript/data.js"></script>
+<script
+	src="plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+<script src="js/pages/forms/basic-form-elements.js"></script>
+
+<!-- Validation Plugin Js -->
+<script src="plugins/jquery-validation/jquery.validate.js"></script>
+<!-- Custom Js -->
+<script src="js/admin.js"></script>
+<script src="js/pages/examples/sign-up.js"></script>
+
+</head>
+
+<body class="signup-page">
+	<div class="signup-box">
+		<div class="logo">
+			<a href="/UniBook"><img src="logo.png" width="200" height="70"></a>
+			<small>Piattaforma di comunicazione Docente-Studente</small>
+		</div>
+		<div class="card">
+			<div class="body">
+				<form id="sign_up" method="post" action="register">
+					<div class="msg" style="font-size: 16px;">
+						<b>Crea un nuovo profilo</b>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">person</i>
+						</span>
+						<div class="input-group-addon ">
+							<select class="selectpicker show-tick" tabindex="-98" name="role">
+								<option value="0">Studente</option>
+								<option value="1">Docente</option>
+							</select>
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">person</i>
+						</span>
+						<div class="input-group-addon">
+							<select class="selectpicker show-tick" tabindex="-98" name="cdl">
+								<option value="0733">Triennale Informatica</option>
+								<option value="0726">Triennale Matematica</option>
+							</select>
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">person</i>
+						</span>
+						<div class="form-line">
+							<input type="text" class="form-control" name="username"
+								placeholder="Nome" required autofocus>
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">person</i>
+						</span>
+						<div class="form-line">
+							<input type="text" class="form-control" name="userlastname"
+								placeholder="Cognome" required autofocus>
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">person</i>
+						</span>
+						<div class="form-line">
+							<input type="number" class="form-control" name="usermatr"
+								placeholder="Matricola" required autofocus>
+						</div>
+					</div>
+
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">person</i>
+						</span>
+						<div class="form-line">
+							<input type="text" class="datepicker form-control"
+								placeholder="Data di nascita" data-dtp="dtp_b4zAz"
+								name="dataNascita">
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">payment</i>
+						</span>
+						<div class="form-line">
+							<input type="text" class="form-control" name="codf"
+								placeholder="Codice fiscale" required autofocus>
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">email</i>
+						</span>
+						<div class="form-line">
+							<input type="email" class="form-control" name="email"
+								placeholder="E-mail" required>
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">lock</i>
+						</span>
+						<div class="form-line">
+							<input type="password" class="form-control" name="password"
+								minlength="6" placeholder="Password" required>
+						</div>
+					</div>
+					<div class="myinline input-group form-group">
+						<span class="myinline input-group-addon"> <i
+							class="material-icons">lock</i>
+						</span>
+						<div class="form-line">
+							<input type="password" class="form-control" name="confirm"
+								minlength="6" placeholder="Conferma Password" required>
+						</div>
+					</div>
+
+					<button class="btn btn-block btn-lg bg-unibook waves-effect"
+						type="submit">Registrati</button>
+					<div class="m-t-25 m-b--5 align-center">
+						Sei già registrato? <a href="login"><font color="grey">Accedi</font></a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
