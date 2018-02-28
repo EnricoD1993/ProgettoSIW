@@ -10,13 +10,13 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="css/style.css" />
-<link 
+<link
 	href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext"
 	rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 	rel="stylesheet" type="text/css">
 </head>
-<body> 
+<body>
 
 	<!-- Header -->
 	<header id="header" class="alt">
@@ -86,9 +86,6 @@
 						Stai cercando un aula? Non sai dove hai lezione?<br> Puoi
 						cercare le aule e localizzarle, addio ritardi a lezione!
 					</p>
-					<ul class="actions">
-						<li><a href="#aule" class="button alt">Scopri di più!</a></li>
-					</ul>
 				</div>
 				<div>
 					<header>
@@ -98,10 +95,6 @@
 						Personale. Sei sempre al corrente delle tue lezioni, in più il
 						sistema gestisce l'aggiunta o rimozione di lezioni così sei al
 						corrente sui cambiamenti dei tuoi corsi.</p>
-					<ul class="actions">
-						<li><a href="#Calendario" class="button alt">Scopri di
-								più!</a></li>
-					</ul>
 				</div>
 				<div>
 					<header>
@@ -127,9 +120,6 @@
 					</header>
 					<p>Unibook ti permettere di gestire i tuoi corsi in modo
 						semplice.</p>
-					<ul class="actions">
-						<li><a href="#aule" class="button alt">Scopri di più!</a></li>
-					</ul>
 				</div>
 				<div>
 					<header>
@@ -137,10 +127,6 @@
 					</header>
 					<p>Sulle pagine dei Corsi è possibile pubblicare avvisi per
 						tenere sempre informati i tuoi studenti.</p>
-					<ul class="actions">
-						<li><a href="#Calendario" class="button alt">Scopri di
-								più!</a></li>
-					</ul>
 				</div>
 				<div>
 					<header>
@@ -148,9 +134,6 @@
 					</header>
 					<p>Ogni corso ha una gestione delle presenze. Con un semplice
 						click puoi segnare uno studente come presente ad una lezione.</p>
-					<ul class="actions">
-						<li><a href="#Esami" class="button alt">Scopri di più!</a></li>
-					</ul>
 				</div>
 			</div>
 		</div>

@@ -50,7 +50,6 @@ function checkNotifications() {
 					var json = JSON.parse(data);
 					notifications = json[0];
 					lastNotify = json[1];
-					console.log(lastNotify.type);
 					if (lastNotify.type != 6) {
 						if (notifications.number != 0)
 							document.getElementById("notifycount").innerHTML = notifications.number;
